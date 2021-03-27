@@ -86,7 +86,7 @@ void main() {
           io.File(random)
       );
     }
-    await message.reply('<b>Hoi ${message.from.first_name},\nWelcome To IndianBots Bin Checker..'
+    await message.reply('<b>Hoi ${message.from.first_name},\nWelcome To ExploitzBots Bin Checker..'
         '\n\nAll My Commands Are Here - /commands</b>', parse_mode: 'html');
   });
 
@@ -112,10 +112,10 @@ void main() {
     if (req.toString().contains('ok')) {
       await message.replyPhoto(
           io.File('./bin/logo.png'),
-          caption: '<b>My Source Code Is On Github...\n'
-              'https://github.com/IndianBots/BinChecker/\n'
+          caption: '<b>My Channel ❤️...\n'
+              'https://t.me/ExploitzBots/\n'
               '\n'
-              'Please Star The Repo For More Support.</b>',
+              'Please Join Channel For More Support.</b>',
           parse_mode: 'html'
       );
     } else {
@@ -146,7 +146,7 @@ void main() {
                 'Country : ${data['country']}\n'
                 'Bank : ${data['bank']}\n'
                 '\n'
-                'Checker By : @IndianBots'
+                'Checker By : @ExploitzBots'
                 '</b>', parse_mode: 'html');
           } else {
             await message.reply('<b>Invalid Bin</b>', parse_mode: 'html');
@@ -159,7 +159,7 @@ void main() {
         await message.reply('<b>Invalid Bin </b><code>${bin}</code>', parse_mode: 'html');
       }
     } else {
-      await message.reply('<b>💘Join My Channel To Use Me\n@IndianBots</b>', parse_mode: 'html');
+      await message.reply('<b>💘Join My Channel To Use Me\n@ExploitzBots</b>', parse_mode: 'html');
     }
   });
 
@@ -180,7 +180,7 @@ void main() {
           parse_mode: 'html'
       );
     } else {
-      await message.reply('<b>💘Join My Channel To Use Me\n@IndianBots</b>', parse_mode: 'html');
+      await message.reply('<b>💘Join My Channel To Use Me\n@ExploitzBots</b>', parse_mode: 'html');
     }
 
   });
@@ -202,7 +202,7 @@ void main() {
       );
       await event.reply(
           '<b>Please Don\'t Spam Here..</b>\n\nA Better Place To Spam Is '
-              '<a href="https://t.me/${event.from.username ?? 'pureindialover'}">Here</a>',
+              '<a href="https://t.me/${event.from.username ?? 'Madboi_xD'}">Here</a>',
           parse_mode: 'html',
           withQuote: false,
           disable_notification: false,
